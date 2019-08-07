@@ -9,7 +9,7 @@ class MoneySpec extends Specification {
             Dollar five = new Dollar(5)
         when :
             five.times(2)
-        expect:
+        then:
             five.amount == 10
     }
 
