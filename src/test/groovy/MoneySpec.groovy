@@ -8,10 +8,10 @@ class MoneySpec extends Specification {
         given :
 
         Dollar five = new Dollar(5)
-        Dollar six = new Dollar(5)
+        Dollar six = new Dollar(6)
 
         expect:
-        five != new Dollar(5)
+        five == new Dollar(5)
         five != six
 
 
