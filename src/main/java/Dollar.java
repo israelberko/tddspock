@@ -1,6 +1,6 @@
-public class Dollar {
+public class Dollar extends Money{
 
-    private int amount;
+//    protected int amount;
 
     public Dollar(int amount) {
         this.amount= amount;
@@ -11,10 +11,7 @@ public class Dollar {
 
     }
 
-    public boolean equals(Object object) {
-        Dollar dollar= (Dollar) object;
-        return amount == dollar.amount;
-    }
+
 
 
 }
