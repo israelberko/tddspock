@@ -5,9 +5,7 @@ import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * Created by jt on 2018-10-04.
- */
+
 public class MoneyTest {
 
     @Test
