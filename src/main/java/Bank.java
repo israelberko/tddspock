@@ -1,5 +1,4 @@
 import java.util.HashMap;
-
 public class Bank {
 
     private HashMap<Pair, Integer> rateMap = new HashMap<>();
