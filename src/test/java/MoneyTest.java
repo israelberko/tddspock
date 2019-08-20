@@ -2,9 +2,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * Created by jt on 2018-10-04.
- */
+
 public class MoneyTest {
 
     @Test
