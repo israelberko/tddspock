@@ -1,9 +1,9 @@
-public class Dollar extends Money{
+public class Dollar{
 
 //    protected int amount;
 
     Dollar(int amount, String currency) {
-        super(amount, currency);
+
     }
 
 

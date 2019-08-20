@@ -1,7 +1,6 @@
-public class Franc  extends Money{
+public class Franc  {
 //    private int amount;
     Franc(int amount, String currency) {
-        super(amount, currency);
     }
 
     String currency() {
